@@ -7,7 +7,7 @@
   <p align="center">
     Your personal AI writing assistant for creating, rewriting, and researching content with ease.
     <br />
-    <a href="#"><strong>Explore the live demo »</strong></a>
+    <a href="https://kalam-coral.vercel.app/"><strong>Explore the live demo »</strong></a>
     <br />
   </p>
 </div>
@@ -35,7 +35,7 @@ Kalam AI is your personal AI writing assistant designed to enhance your writing 
 
 Here's a glimpse of what Kalam AI looks like in action.
 
-*(Add a screenshot of the main UI here)*
+![Home Page](https://res.cloudinary.com/dbxz7gd59/image/upload/v1762339337/Screenshot_2025-11-05_161148_vo3c9x.png "Kalam AI Interface")
 
 ![Kalam AI Screenshot](https://res.cloudinary.com/dbxz7gd59/image/upload/v1762265650/Gemini_Generated_Image_k04xnik04xnik04x_bpcmc5.png "Kalam AI Interface")
 
