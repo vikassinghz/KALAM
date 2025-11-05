@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="https://res.cloudinary.com/dbxz7gd59/image/upload/v1762267537/Gemini_Generated_Image_gva4uvgva4uvgva4_xrexgg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalam AI Writing Assistant</title>
+    
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 217.2 91.2% 59.8%;
+        --primary-foreground: 210 40% 98%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215.4 16.3% 56.9%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+        --radius: 0.5rem;
+      }
+
+      @keyframes word-appear {
+        0% {
+          opacity: 0;
+          transform: translateY(30px) scale(0.8);
+          filter: blur(10px);
+        }
+        50% {
+          opacity: 0.8;
+          transform: translateY(10px) scale(0.95);
+          filter: blur(2px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+          filter: blur(0);
+        }
+      }
+
+      @keyframes grid-draw {
+        0% {
+          stroke-dashoffset: 1000;
+          opacity: 0;
+        }
+        50% {
+          opacity: 0.3;
+        }
+        100% {
+          stroke-dashoffset: 0;
+          opacity: 0.15;
+        }
+      }
+
+      @keyframes pulse-glow {
+          0% {
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0.8;
+          }
+          100% {
+            transform: translate(-50%, -50%) scale(25);
+            opacity: 0;
+          }
+      }
+
+      @keyframes underline-grow {
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0) translateX(0);
+          opacity: 0.2;
+        }
+        25% {
+          transform: translateY(-10px) translateX(5px);
+          opacity: 0.6;
+        }
+        50% {
+          transform: translateY(-5px) translateX(-3px);
+          opacity: 0.4;
+        }
+        75% {
+          transform: translateY(-15px) translateX(7px);
+          opacity: 0.8;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.417.0",
+    "@radix-ui/react-slot": "https://aistudiocdn.com/@radix-ui/react-slot@^1.1.0",
+    "class-variance-authority": "https://aistudiocdn.com/class-variance-authority@^0.7.0",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^2.4.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "@splinetool/react-spline": "https://aistudiocdn.com/@splinetool/react-spline@^4.0.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.19",
+    "color-bits": "https://esm.sh/color-bits@1.1.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-foreground">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
